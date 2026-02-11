@@ -161,12 +161,7 @@
     // Tip: use GIF URLs that end in .gif, or a direct media link.
     const BEGGY_GIF = "https://media.tenor.com/rIVI9zKfEcIAAAAM/puppy-dog-eyes-sad.gif";
     const CELEBRATE_GIF = "https://booksparks.com/wp-content/uploads/2018/04/dance-party-dancing-GIF-downsized-1.gif";
-
-    // If you don't want to hunt URLs right now, these are safe placeholders:
-    // (But you should replace them with your preferred ones.)
-    const fallbackBeggy = "https://media.giphy.com/media/ROF8OQvDmxytW/giphy.gif";
-    const fallbackCelebrate = "https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif";
-
+    
     const gifEl = document.getElementById("mainGif");
     gifEl.src = (BEGGY_GIF.includes("PASTE_") ? fallbackBeggy : BEGGY_GIF);
 
